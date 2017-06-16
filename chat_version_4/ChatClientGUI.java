@@ -31,7 +31,7 @@ import javax.swing.text.DefaultCaret;
 
 public class ChatClientGUI extends JFrame implements ActionListener,KeyListener, Runnable{
 	
-	private String encMarker = "THISMESSAGEISFUCKINGENCRYPTED";
+	private String encMarker = "THISMESSAGEISENCRYPTED";
 
 	private Socket socket = null;
 	private final String serverName = "localhost"; //"localhost"//or your friend's ip address
